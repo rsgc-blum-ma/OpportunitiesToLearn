@@ -11,3 +11,20 @@
  */
 
 // Add your code below
+
+func levelCost(heights: [Int], maxJump: [Int]) -> Int {
+    
+    var lastHeight = 0
+    
+    for number in heights {
+        if lastHeight == 0 {
+            lastHeight = number
+        } else {
+            var jumpHeight = lastHeight - number
+            if jumpHeight <= 0 {
+                jumpHeight = -jumpHeight
+            }
+        }
+    }
+    return [levelCost]
+}
