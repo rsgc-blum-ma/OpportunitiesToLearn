@@ -6,11 +6,12 @@
  You create routines in code by building functions like this:
  */
 func doTheDisco() {
-    leftArmUp()
-    shakeItRight()
-    leftArmDown()
+    rightArmUp()
+    shakeItLeft()
+    rightArmDown()
     shakeItCenter()
 }
+
 /*:
  Once you've decided what moves go in the routine, start the robot dancing by calling the function you just made:
  */

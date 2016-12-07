@@ -28,13 +28,15 @@ fabulize()
 fabulize()
 fabulize()
 leftArmUp()
-rightArmUp()
-
 leftLegUp()
 rightLegUp()
+rightArmUp()
+
 leftLegDown()
 rightLegDown()
+
 shakeItLeft()
+shakeItCenter()
 shakeItRight()
 shakeItCenter()
 jumpUp()

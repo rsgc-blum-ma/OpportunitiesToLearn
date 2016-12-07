@@ -18,6 +18,21 @@
 */
 startBot()
 startRecording()
+setBotTitle(" Dirty snipes")
+setBotSubtitle("by Hugh Mungus")
+func Dirty() {
+    fabulize()
+    rightArmUp()
+    rightLegUp()
+    leftLegUp()
+    shakeItLeft()
+    shakeItRight()
+    shakeItCenter()
+    defabulize()
+    rightLegDown()
+    leftLegDown()
+    
+}
 
 
 

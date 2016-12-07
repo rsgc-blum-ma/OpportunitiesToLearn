@@ -12,7 +12,7 @@
 
 // Add your code below
 
-func levelCost(heights: [Int], maxJump: [Int]) -> Int {
+func levelCost(heights: [Int], maxJump: Int) -> Int {
     
     var lastHeight = 0
     
@@ -26,5 +26,14 @@ func levelCost(heights: [Int], maxJump: [Int]) -> Int {
             }
         }
     }
-    return [levelCost]
+    if energyUsed < lastHeight {
+        
+        if lastHeight == 0 {
+            energyUsed += 1 }
+        else {
+            energyUsed += 2 * lastHeight
+        }
+    }
+    return energyUsed
 }
+ 
