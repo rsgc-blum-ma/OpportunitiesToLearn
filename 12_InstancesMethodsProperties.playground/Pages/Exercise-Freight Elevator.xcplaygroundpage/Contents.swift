@@ -6,6 +6,11 @@
  - callout(Exercise):
  Create three constants for items of different weights that you'd like to bring up to your fort: one less than 100, one between 100 and 1000, and one over 1000.
  */
+let Brick = (90)
+let EthanP = (110)
+let Arman = (1000)
+let WillG = (1001)
+
 
 
 
@@ -16,6 +21,7 @@
  */
 
 let ricketyRope = TreehousePulley(weightCapacity: 200)
+let fazeRope = TreehousePulley(weightCapacity: 2000)
 
 
 

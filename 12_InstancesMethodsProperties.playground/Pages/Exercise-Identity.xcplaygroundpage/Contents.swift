@@ -11,7 +11,9 @@ Check the values of `myPlans` and `friendPlans`. Are they the same or different?
  */
 // Create your variables here:
 
-
+let myPlans = ("Do my homework") + ("Sleep for like 3 hours")
+let friendPlans = ("Do my homework and join Faze Clan")
+ myPlans == friendPlans
 
 // Update `myPlans` here:
 
@@ -26,7 +28,13 @@ Call the `addDance` function on `myPlans`, and assign the result to `friendPlans
 // Define and call your function here:
 
 
-
+func addDance(Dance :String ) -> String {
+    let weDance = ("and then we dance!")
+    let BigSnipes = ("but no dancing")
+    
+    
+    
+}
 
 /*:
  - callout(Exercise):

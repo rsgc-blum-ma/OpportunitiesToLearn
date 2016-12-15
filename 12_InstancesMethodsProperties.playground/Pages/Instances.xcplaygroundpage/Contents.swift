@@ -11,8 +11,8 @@ You’ve been creating instances of type `Int` and `String` for a while now. In 
 The constants `hello` and `aDifferentHello` are two `String` instances that happen to hold the same data.
 
 */
-let hello = "hello"
-let aDifferentHello = "hello"
+let hello = "Its me"
+let HelloFromTheOtherSide = "At Least I Can Say That I Tried"
 /*: 
  
 You’ve seen that the type of an instance determines what kind of data it contains and how you can use it in code.
