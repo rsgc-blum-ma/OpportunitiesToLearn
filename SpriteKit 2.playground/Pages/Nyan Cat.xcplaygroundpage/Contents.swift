@@ -17,7 +17,7 @@ let midPoint = CGPoint(x: frame.size.width / 2.0, y: frame.size.height / 2.0)
 //: With these in place, we can create a scene, and a SpriteNode which we position at the midpoint of the scene, and of course add it to the scene
 var scene = SKScene(size: frame.size)
 
-let nyanCat = SKSpriteNode(imageNamed: "Nyancat")
+let nyanCat = SKSpriteNode(imageNamed: "MemeSnipe")
 nyanCat.position = midPoint
 nyanCat.setScale(8.0)
 

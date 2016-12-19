@@ -28,13 +28,6 @@ Call the `addDance` function on `myPlans`, and assign the result to `friendPlans
 // Define and call your function here:
 
 
-func addDance(Dance :String ) -> String {
-    let weDance = ("and then we dance!")
-    let BigSnipes = ("but no dancing")
-    
-    
-    
-}
 
 /*:
  - callout(Exercise):

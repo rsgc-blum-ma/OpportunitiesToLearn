@@ -8,7 +8,7 @@ let midPoint = CGPoint(x: frame.size.width / 2.0, y: frame.size.height / 2.0)
 
 var scene = SKScene(size: frame.size)
 
-let nyanCat = SKSpriteNode(imageNamed: "Nyancat")
+let nyanCat = SKSpriteNode(imageNamed: "MemeSnipe")
 nyanCat.position = midPoint
 nyanCat.setScale(8.0)
 

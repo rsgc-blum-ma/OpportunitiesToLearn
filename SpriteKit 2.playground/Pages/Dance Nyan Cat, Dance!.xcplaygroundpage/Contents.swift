@@ -9,12 +9,11 @@ let midPoint = CGPoint(x: frame.size.width / 2.0, y: frame.size.height / 2.0)
 
 var scene = SKScene(size: frame.size)
 
-let nyanCat = SKSpriteNode(imageNamed: "Nyancat")
+let nyanCat = SKSpriteNode(imageNamed: "MemeSnipe")
 nyanCat.position = midPoint
-nyanCat.setScale(8.0)
-
-let actionMoveUp = SKAction.moveBy(x: 0, y: 10, duration: 0.15)
-let actionMoveDown = SKAction.moveBy(x: 0, y: -10, duration: 0.15)
+nyanCat.setScale(0.3)
+let actionMoveUp = SKAction.moveBy(x: 0, y: 5, duration: 0.15)
+let actionMoveDown = SKAction.moveBy(x: 0, y: -5, duration: 0.15)
 let actionSequence = SKAction.sequence([actionMoveUp, actionMoveDown])
 let actionRepeat = SKAction.repeatForever(actionSequence)
 nyanCat.run(actionRepeat)
@@ -25,7 +24,7 @@ let emitter = SKEmitterNode()
 emitter.particleLifetime = 40
 emitter.particleBlendMode = SKBlendMode.alpha
 emitter.particleBirthRate = 3
-emitter.particleSize = CGSize(width: 4,height: 4)
+emitter.particleSize = CGSize(width: 8,height: 8)
 emitter.particleColor = SKColor(red: 100, green: 100, blue: 255, alpha: 1)
 emitter.position = CGPoint(x:frame.size.width,y:midPoint.y)
 emitter.particleSpeed = 16
@@ -43,11 +42,11 @@ class RainbowParticle : SKEmitterNode {
         super.init()
         self.particleLifetime = 10
         self.particleBlendMode = SKBlendMode.alpha
-        self.particleBirthRate = 24
+        self.particleBirthRate = 48
         self.particleSpeed = 16
         self.emissionAngle = 3.14
         self.targetNode = target
-        self.particleSize = CGSize(width: 1, height: 1)
+        self.particleSize = CGSize(width: 1.5, height: 1.5)
         self.particleColor = color
         self.position = position
         childOf.addChild(self)
@@ -83,7 +82,7 @@ for rainbowColor in rainbowColors {
 }
 
 //: Make Nyan Cat even happier!
-let actionPlaySound = SKAction.playSoundFileNamed("nyan-cat-tune.mp3", waitForCompletion: false)
+let actionPlaySound = SKAction.playSoundFileNamed("RobloxMeme.mp3", waitForCompletion: false)
 scene.run(actionPlaySound)
 
 //: And show the scene in the liveView
